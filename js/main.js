@@ -16,7 +16,7 @@ document.getElementById('splash').addEventListener('click', () => {
 document.addEventListener('DOMContentLoaded', () => {
     const container = document.getElementById('carouselContainer');
     const track = document.getElementById('carouselTrack');
-    
+
     if (!container || !track) return;
 
     let isDragging = false;
