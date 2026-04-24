@@ -8,7 +8,7 @@ document.getElementById('splash').addEventListener('click', () => {
     // cuando termina la transición, libera el scroll y saca el splash del DOM
     splash.addEventListener('transitionend', () => {
         splash.style.display = 'none';
-        document.body.style.overflow = 'auto';
+        document.body.style.overflowY = 'auto';
     }, { once: true });
 });
 
