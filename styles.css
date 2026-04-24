@@ -239,6 +239,12 @@ h1 {
     color: #FFFFFF;
 }
 
+.paleta-colores {
+    margin-top: 2rem;
+    padding: 0.2rem;
+    border-radius: 20%;
+}
+
 .cronograma {
     display: flex;
     flex-direction: column;
@@ -260,5 +266,37 @@ h1 {
 .img-cronograma {
     width: 100%;
     height: auto;
+}
 
+.confirmacion {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: #817A4E;
+}
+
+
+
+.asistencia {
+    padding: 1rem;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 169%;
+    letter-spacing: 10%;
+    text-align: center;
+    vertical-align: middle;
+    color: #FFFFFF;
+}
+
+.carta {
+    margin-top: 1rem;
+}
+
+.btn-confirmacion {
+    margin-top: 0.5rem;
+    margin-bottom: 2.5rem;
+    padding: 0.2rem;
+    border-radius: 20%;
 }

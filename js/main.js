@@ -12,7 +12,7 @@ document.getElementById('splash').addEventListener('click', () => {
     }, { once: true });
 });
 
-// --- Carrusel Deslizable ---
+
 document.addEventListener('DOMContentLoaded', () => {
     const container = document.getElementById('carouselContainer');
     const track = document.getElementById('carouselTrack');
@@ -25,7 +25,7 @@ document.addEventListener('DOMContentLoaded', () => {
     let prevTranslate = 0;
     let animationId = null;
 
-    // Disable transition while dragging for smooth movement
+
     function setSliderPosition() {
         track.style.transform = `translateX(${currentTranslate}px)`;
     }
@@ -45,7 +45,6 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     }
 
-    // --- Touch events ---
     container.addEventListener('touchstart', (e) => {
         isDragging = true;
         startX = e.touches[0].clientX;
@@ -69,7 +68,7 @@ document.addEventListener('DOMContentLoaded', () => {
         setSliderPosition();
     });
 
-    // --- Mouse events (desktop) ---
+
     container.addEventListener('mousedown', (e) => {
         isDragging = true;
         startX = e.clientX;
