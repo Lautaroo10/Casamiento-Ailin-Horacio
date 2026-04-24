@@ -300,3 +300,63 @@ h1 {
     padding: 0.2rem;
     border-radius: 20%;
 }
+
+
+.regalo {
+    background-color: #696338;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.img-regalo {
+    margin-top: 1rem;
+}
+
+.p-regalo {
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 169%;
+    letter-spacing: 0;
+    text-align: center;
+    vertical-align: middle;
+    color: #FFFFFF;
+    padding: 1.5rem 1.5rem;
+}
+
+
+
+.alias {
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 8%;
+    text-align: center;
+    vertical-align: middle;
+    color: #FFFFFF;
+    padding-top: 0.5rem;
+    padding-bottom: 3.5rem;
+}
+
+
+.reloj {
+    background-color: #696338;
+    width: 100%;
+    height: 220px;
+}
+
+
+
+
+
+
+
+
+
+
+.header-dress-code {
+    background-color: #696338;
+}
