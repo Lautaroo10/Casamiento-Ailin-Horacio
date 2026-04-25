@@ -178,6 +178,17 @@ h1 {
     pointer-events: none;
 }
 
+.p-reloj {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 172%;
+    letter-spacing: 8%;
+    text-align: center;
+    vertical-align: middle;
+    color: #FFFFFF;
+    padding-top: 1rem;
+}
+
 
 .como-llegar {
     background-color: #817A4E;
@@ -202,10 +213,6 @@ h1 {
 }
 
 
-.espacio-blanco {
-    background-color: white;
-    height: 60px;
-}
 
 .dress-code {
     background-color: #696338;
@@ -239,34 +246,35 @@ h1 {
     color: #FFFFFF;
 }
 
-.paleta-colores {
+.moño {
+    margin: 1rem;
+}
+
+.conocenos {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 8%;
+    text-align: center;
+    vertical-align: middle;
+    color: #FFFFFF;
+    padding: 0.8rem;
+}
+
+.info-adicional {
     margin-top: 2rem;
     padding: 0.2rem;
     border-radius: 20%;
 }
 
-.cronograma {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-}
 
-.p-cronograma {
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 100%;
-    letter-spacing: 8%;
-    text-align: center;
-    vertical-align: middle;
-    padding: 0.8rem;
-}
-
-.img-cronograma {
+.casa-italia {
     width: 100%;
     height: auto;
 }
+
+
+
 
 .confirmacion {
     display: flex;
@@ -274,7 +282,7 @@ h1 {
     justify-content: center;
     align-items: center;
     width: 100%;
-    background-color: #817A4E;
+    background-color: #FFFFFF;
 }
 
 
@@ -287,23 +295,26 @@ h1 {
     letter-spacing: 10%;
     text-align: center;
     vertical-align: middle;
-    color: #FFFFFF;
+    color: #512731;
 }
 
 .carta {
     margin-top: 1rem;
+
 }
 
 .btn-confirmacion {
     margin-top: 0.5rem;
     margin-bottom: 2.5rem;
-    padding: 0.2rem;
+    padding: 0.5rem 1rem;
     border-radius: 20%;
+    background-color: #512731;
+    color: #FFFFFF;
 }
 
 
 .regalo {
-    background-color: #696338;
+    background-color: #512731;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -349,14 +360,29 @@ h1 {
 }
 
 
+.hojas {
+    width: 100%;
+    height: auto;
+}
 
 
 
-
-
-
-
-
-.header-dress-code {
+.footer {
     background-color: #696338;
+    width: 100%;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.p-footer {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 8%;
+    text-align: center;
+    vertical-align: middle;
+    color: #FFFFFF;
+    padding: 0 1rem;
 }
