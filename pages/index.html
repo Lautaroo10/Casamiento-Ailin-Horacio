@@ -9,7 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-        href="https://fonts.googleapis.com/css2?family=Abel&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Abel&family=Charmonman:wght@400;700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
 </head>
 
@@ -57,10 +57,9 @@
         <div class="como-llegar">
             <img src="../images/CEREMONIA RELIGIOSA.png" alt="iglesia">
             <img src="../images/CELEBRACIÓN.png" alt="lugar-celebracion">
-            <a
-                href="https://www.google.com/maps/place/El+faro+club+nautico/@-27.3450819,-58.6379225,17z/data=!3m1!4b1!4m6!3m5!1s0x9445395a91d4df97:0x3c790fceff4f1d0!8m2!3d-27.3450819!4d-58.6353476!16s%2Fg%2F11h8wnbm_1?entry=tts&g_ep=EgoyMDI2MDQyMS4wIPu8ASoASAFQAw%3D%3D&skid=6f60f46f-706f-4261-921f-2a069cb65a8a">
-                <button class="btn-llegar">COMO LLEGAR</button>
-            </a>
+            <button class="btn-llegar"
+                onclick="window.open('https://www.google.com/maps/place/El+faro+club+nautico/@-27.3450819,-58.6379225,17z/data=!3m1!4b1!4m6!3m5!1s0x9445395a91d4df97:0x3c790fceff4f1d0!8m2!3d-27.3450819!4d-58.6353476!16s%2Fg%2F11h8wnbm_1?entry=tts&g_ep=EgoyMDI2MDQyMS4wIPu8ASoASAFQAw%3D%3D&skid=6f60f46f-706f-4261-921f-2a069cb65a8a', '_blank')">COMO
+                LLEGAR</button>
         </div>
 
 
@@ -70,9 +69,7 @@
             <img class="moño" src="../images/Moño.png" alt="moño">
             <p class="conocenos">Si queres conocer un poquito más sobre la identidad de nuestro gran día, te compartimos
                 algunos detalles que podrían interesarte..</p>
-            <a href="">
-                <button class="info-adicional">Info Adicional</button>
-            </a>
+            <button class="info-adicional" onclick="window.location.href='./dress-code.html'">Info Adicional</button>
         </div>
 
         <div>
@@ -83,20 +80,37 @@
 
         <div class="confirmacion">
             <img class="carta" src="../images/carta-img.png" alt="carta">
-            <p class="asistencia">¡Para que todo salga como esperamos, te pedimos que nos ayudes confirmando tu
-                asistencia!</p>
-            <a href="">
-                <button class="btn-confirmacion">RSVP</button>
-            </a>
+            <p class="asistencia"><span class="font-abel">¡Para que todo salga como esperamos, te pedimos que nos
+                    ayudes</span> <span class="font-charmonman">confirmando tu asistencia!</span></p>
+            <button class="btn-confirmacion"
+                onclick="window.open('https://docs.google.com/forms/d/e/1FAIpQLSfPfnynOMm6KyoyXm5e53t4ndvpPHyOsoziUQWL-fBXTLoUyA/viewform?usp=send_form', '_blank')">
+                RSVP
+            </button>
         </div>
+
 
         <div class="regalo">
             <img class="img-regalo" src="../images/regalo-img.png" alt="regalo">
-            <p class="p-regalo">Para nosotros ya es un regalo que estes presente, pero en el caso que quieras ayudarnos
-                con la luna de miel o nuestra casita, te compartimos nuestros datos. <br> colaboración para nuestra luna
-                de miel</p>
+            <p class="p-regalo"><span class="font-charmonman">Que estes presente es el mejor regalo para
+                    nosotros,</span> <span class="font-abel">pero si queres ayudarnos a empezar esta nueva etapa juntos,
+                    te dejamos los datos de nuestra cuenta bancaria:</span></p>
 
-            <p class="alias">ALIAS: HORACIO.ROSSETTI</p>
+            <div class="banco">
+                <div class="col-blanca"></div>
+                <p class="alias">BANCO SANTANDER - $ | USD <br>
+                    CBU: 0720148288000040249704
+                    <br> ALIAS: HORACIO.ROSSETTI
+                </p>
+            </div>
+
+
+            <div class="banco">
+                <div class="col-blanca"></div>
+                <p class="alias">BANCO INTESA SANPAOLO - EUR <br>
+                    IBAN: IT47Y0306902233100000074023 <br>
+                    N CONTO: 1000/00074023</p>
+            </div>
+
 
         </div>
 
@@ -105,7 +119,7 @@
         </div>
 
         <footer class="footer">
-            <p class="p-footer">¡Gracias por acompañarnos en este día tan importante!</p>
+            <p class="p-footer">¡Gracias por acompañarnos!</p>
         </footer>
 
 
