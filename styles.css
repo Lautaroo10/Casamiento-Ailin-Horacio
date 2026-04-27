@@ -629,6 +629,9 @@ h1 {
 /* ─── Small phones (≥ 375px) ─── */
 @media (min-width: 375px) {
 
+
+
+
     .alias1,
     .alias2 {
         font-size: 11px;
