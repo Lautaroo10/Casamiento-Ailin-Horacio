@@ -399,17 +399,15 @@ h1 {
 
 .font-charmonman {
     font-family: 'Charmonman', cursive;
-    font-size: 12px;
-
+    font-size: 14px;
+    letter-spacing: 1px;
 }
 
 .font-abel {
     font-family: 'Abel', sans-serif;
     font-size: 12px;
+    letter-spacing: 2px;
 }
-
-
-
 
 .regalo {
     background-color: #512731;
@@ -418,7 +416,7 @@ h1 {
     justify-content: center;
     align-items: center;
     width: 100%;
-    padding: 0 1rem;
+    padding: 0;
 }
 
 .img-regalo {
@@ -428,13 +426,13 @@ h1 {
 
 .p-regalo {
     font-weight: 400;
-    font-size: 11px;
-    line-height: 169%;
-    letter-spacing: 0;
+    line-height: 150%;
     text-align: center;
     color: #FFFFFF;
-    margin-bottom: 16px;
-    padding: 0 1rem;
+    margin-bottom: 24px;
+    width: 100%;
+    padding: 0 10px;
+    /* Mas cerca de los bordes */
 }
 
 .banco1,
@@ -445,7 +443,7 @@ h1 {
     justify-content: flex-start;
     margin: 8px 0;
     width: 100%;
-    padding-left: 3.5rem;
+    padding-left: 4.5rem;
 }
 
 .banco2 {
@@ -639,7 +637,7 @@ h1 {
 
     .banco1,
     .banco2 {
-        padding-left: 4rem;
+        padding-left: 5.5rem;
     }
 
     .frase {
@@ -671,7 +669,7 @@ h1 {
 
     .banco1,
     .banco2 {
-        padding-left: 5rem;
+        padding-left: 7rem;
     }
 
     .asistencia {
@@ -725,7 +723,7 @@ h1 {
 
     .banco1,
     .banco2 {
-        padding-left: 6rem;
+        padding-left: 9rem;
     }
 
     .asistencia {
@@ -772,7 +770,7 @@ h1 {
 
     .banco1,
     .banco2 {
-        padding-left: 14rem;
+        padding-left: 18rem;
     }
 
     .alias1,
@@ -814,8 +812,19 @@ h1 {
     }
 }
 
-/* ─── Desktop (≥ 1024px) ─── */
-@media (min-width: 1024px) {
+
+
+
+@media (min-width: 1024px) and (max-width: 1025px) {
+
+    .banco1,
+    .banco2 {
+        padding-left: 25rem;
+    }
+}
+
+/* ─── Desktop (≥ 1026px) ─── */
+@media (min-width: 1026px) {
 
     .banco1,
     .banco2 {
