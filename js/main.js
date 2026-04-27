@@ -1,16 +1,25 @@
-document.getElementById('splash').addEventListener('click', () => {
+// Si venimos de otra página (ej: dress-code), saltear el splash
+if (window.location.search.includes('nosplash')) {
     const splash = document.getElementById('splash');
     const content = document.getElementById('content');
+    if (splash) splash.style.display = 'none';
+    if (content) content.classList.add('visible');
+    document.body.style.overflowY = 'auto';
+} else {
+    document.getElementById('splash').addEventListener('click', () => {
+        const splash = document.getElementById('splash');
+        const content = document.getElementById('content');
 
-    splash.classList.add('hidden');
-    content.classList.add('visible');
+        splash.classList.add('hidden');
+        content.classList.add('visible');
 
-    // cuando termina la transición, libera el scroll y saca el splash del DOM
-    splash.addEventListener('transitionend', () => {
-        splash.style.display = 'none';
-        document.body.style.overflowY = 'auto';
-    }, { once: true });
-});
+        // cuando termina la transición, libera el scroll y saca el splash del DOM
+        splash.addEventListener('transitionend', () => {
+            splash.style.display = 'none';
+            document.body.style.overflowY = 'auto';
+        }, { once: true });
+    });
+}
 
 
 document.addEventListener('DOMContentLoaded', () => {
@@ -102,4 +111,33 @@ document.addEventListener('DOMContentLoaded', () => {
             setSliderPosition();
         }
     });
+
+    // --- Countdown Timer ---
+    const weddingDate = new Date('2026-08-15T00:00:00');
+
+    function updateCountdown() {
+        const now = new Date();
+        const diff = weddingDate - now;
+
+        if (diff <= 0) {
+            document.getElementById('countdown-days').textContent = '00';
+            document.getElementById('countdown-hours').textContent = '00';
+            document.getElementById('countdown-minutes').textContent = '00';
+            document.getElementById('countdown-seconds').textContent = '00';
+            return;
+        }
+
+        const days = Math.floor(diff / (1000 * 60 * 60 * 24));
+        const hours = Math.floor((diff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        const minutes = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
+        const seconds = Math.floor((diff % (1000 * 60)) / 1000);
+
+        document.getElementById('countdown-days').textContent = String(days).padStart(3, '0');
+        document.getElementById('countdown-hours').textContent = String(hours).padStart(2, '0');
+        document.getElementById('countdown-minutes').textContent = String(minutes).padStart(2, '0');
+        document.getElementById('countdown-seconds').textContent = String(seconds).padStart(2, '0');
+    }
+
+    updateCountdown();
+    setInterval(updateCountdown, 1000);
 });

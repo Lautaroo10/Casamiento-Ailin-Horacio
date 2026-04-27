@@ -73,14 +73,16 @@ body {
 .texto {
     margin-top: 150px;
     text-align: center;
+    font-family: 'Aboreto', sans-serif;
 }
 
 h1 {
     color: white;
     font-size: 30px;
-    letter-spacing: 10px;
+    letter-spacing: 5px;
     font-weight: 1;
     z-index: 1;
+    font-family: 'Aboreto', sans-serif;
 }
 
 .fecha {
@@ -92,6 +94,7 @@ h1 {
     text-align: center;
     vertical-align: middle;
     z-index: 1;
+    font-family: 'Aboreto', sans-serif;
 }
 
 
@@ -222,7 +225,6 @@ h1 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 2.5rem;
     width: 100%;
 }
 
@@ -235,6 +237,7 @@ h1 {
     text-align: center;
     vertical-align: middle;
     padding: 0.8rem;
+    margin-top: 18px;
 }
 
 
@@ -246,10 +249,11 @@ h1 {
     text-align: center;
     vertical-align: middle;
     color: #FFFFFF;
+    margin-bottom: 12px;
 }
 
 .moño {
-    margin: 1rem;
+    margin-bottom: 10px;
 }
 
 .conocenos {
@@ -260,12 +264,14 @@ h1 {
     text-align: center;
     vertical-align: middle;
     color: #FFFFFF;
-    padding: 0.8rem;
+    padding: 0 4rem;
     font-family: 'Abel', sans-serif;
+    margin-top: 10px;
 }
 
 .info-adicional {
-    margin-top: 2rem;
+    margin-top: 20px;
+    margin-bottom: 35px;
     padding: 0.2rem;
     border-radius: 20%;
 }
@@ -274,6 +280,7 @@ h1 {
 .casa-italia {
     width: 100%;
     height: auto;
+    display: block;
 }
 
 
@@ -291,7 +298,7 @@ h1 {
 
 
 .asistencia {
-    padding: 1rem;
+    padding: 0 4rem;
     font-weight: 400;
     font-size: 16px;
     line-height: 169%;
@@ -299,20 +306,23 @@ h1 {
     text-align: center;
     vertical-align: middle;
     color: #512731;
+    margin-top: -16px;
 }
 
 .carta {
-    margin-top: 1rem;
+    margin: 36px;
+    padding: 0 180px;
 
 }
 
 .btn-confirmacion {
-    margin-top: 0.5rem;
-    margin-bottom: 2.5rem;
+    margin-top: 16px;
+    margin-bottom: 36px;
     padding: 0.5rem 1rem;
     border-radius: 20%;
     background-color: #512731;
     color: #FFFFFF;
+
 }
 
 
@@ -323,11 +333,11 @@ h1 {
     justify-content: center;
     align-items: center;
     width: 100%;
-    padding-bottom: 3.5rem;
 }
 
 .img-regalo {
-    margin-top: 1rem;
+    margin-top: 26px;
+    margin-bottom: 16px;
 }
 
 .p-regalo {
@@ -338,61 +348,109 @@ h1 {
     text-align: center;
     vertical-align: middle;
     color: #FFFFFF;
-    padding: 1.5rem 1.5rem;
+    margin-bottom: 16px;
+    padding: 0 30px;
 }
 
 .font-charmonman {
     font-family: 'Charmonman', cursive;
-    font-size: 24px;
+    font-size: 12px;
     /* Un poco más grande para que se note el estilo cursivo */
 }
 
 .font-abel {
     font-family: 'Abel', sans-serif;
-    font-size: 16px;
+    font-size: 12px;
 }
 
-.banco {
+.banco1,
+.banco2 {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: flex-start;
-    margin: 1.5rem 0;
-    width: 320px;
-    max-width: 90vw;
+    margin: 8px 0;
+    width: 100%;
+    padding-left: 100px;
 }
 
-.col-blanca {
-    width: 5px;
-    height: 50px;
+.banco2 {
+    margin-bottom: 45px;
+}
+
+.col-blanca1,
+.col-blanca2 {
+    width: 3px;
+    min-width: 3px;
+    height: 45px;
     background-color: white;
-
+    flex-shrink: 0;
 }
 
-
-.alias {
+.alias1,
+.alias2 {
+    font-family: 'Abel', sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 14px;
-    line-height: 150%;
-    letter-spacing: 8%;
+    font-size: 11px;
+    line-height: 170%;
+    letter-spacing: 2px;
     text-align: left;
-    vertical-align: middle;
     color: #FFFFFF;
-    margin-left: 15px;
+    margin-left: 12px;
 }
+
 
 
 .reloj {
     background-color: #696338;
     width: 100%;
-    height: 220px;
+    padding: 2rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
+.countdown {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    margin-top: 1rem;
+}
+
+.countdown-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.countdown-number {
+    font-family: 'Aboreto', sans-serif;
+    font-size: 32px;
+    color: #FFFFFF;
+    letter-spacing: 2px;
+}
+
+.countdown-label {
+    font-family: 'Abel', sans-serif;
+    font-size: 10px;
+    color: #FFFFFF;
+    letter-spacing: 2px;
+    margin-top: 4px;
+    opacity: 0.8;
+}
+
+.separador-hojas {
+    background-color: #696338;
+    line-height: 0;
+    font-size: 0;
+}
 
 .hojas {
     width: 100%;
-    height: auto;
+    display: block;
+    margin: 0;
+    padding: 0;
 }
 
 
@@ -404,6 +462,7 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
+
 }
 
 .p-footer {
@@ -451,15 +510,14 @@ h1 {
 .historia {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    text-align: center;
     padding: 2.5rem 2.5rem 0 2.5rem;
     gap: 1.5rem;
+    font-family: 'Actor', sans-serif;
+    text-align: justify;
 }
 
 .text-historia {
     font-size: 18px;
-    text-align: center;
 }
 
 .introduccio-colores {
@@ -469,6 +527,10 @@ h1 {
     letter-spacing: 8%;
     text-align: center;
     vertical-align: middle;
+    font-family: 'Charmonman', cursive;
+    padding: 22px 0;
+    margin-bottom: 22px;
+
 }
 
 .sugerencia {
@@ -478,18 +540,64 @@ h1 {
     letter-spacing: 8%;
     text-align: center;
     vertical-align: middle;
+    font-family: 'Actor', sans-serif;
+    color: #512731;
+    padding: 0 1rem;
+    margin-bottom: 30px;
+}
+
+.sugerencia-2 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 8%;
+    text-align: center;
+    vertical-align: middle;
+    font-family: 'Charmonman', cursive;
+    color: #512731;
+    margin-bottom: 30px;
+}
+
+.colores {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .verde {
-    font-weight: bold;
     font-size: 16px;
     letter-spacing: 8%;
     text-align: center;
+    font-family: 'Aboreto', serif;
+
+}
+
+.text-celebrar {
+    font-family: 'Charmonman', cursive;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 190%;
+    letter-spacing: 8%;
+    text-align: center;
+    vertical-align: middle;
+    color: #512731;
+}
+
+.text-gracias {
+    font-family: 'Charmonman', cursive;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 190%;
+    letter-spacing: 8%;
+    text-align: center;
+    vertical-align: middle;
+    color: #512731;
 }
 
 
 .casa-italia-colores {
-    width: 150%;
+    width: 100%;
     height: auto;
-    margin-top: 2.5rem;
+    margin-top: 25px;
+    display: block;
 }
