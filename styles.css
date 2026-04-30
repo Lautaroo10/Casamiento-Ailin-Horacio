@@ -120,6 +120,11 @@ h1 {
 }
 
 
+.moño {
+    width: 120px;
+}
+
+
 .tercera-parte {
     display: flex;
     flex-direction: column;
@@ -134,18 +139,19 @@ h1 {
     font-family: 'Charmonman', cursive;
     font-size: clamp(0.85rem, 3.5vw, 1rem);
     font-weight: 400;
-    line-height: 172%;
+    line-height: 220%;
     letter-spacing: 0.08em;
     text-align: center;
     padding: 2rem 1.5rem;
+    margin-top: 1rem;
 }
 
 .bebidas {
-    width: 60px;
+    width: 150px;
     justify-content: center;
     align-items: center;
     display: block;
-    margin: 0 auto;
+    margin-top: -25px;
 }
 
 
@@ -194,7 +200,6 @@ h1 {
     letter-spacing: 0.08em;
     text-align: center;
     color: #FFFFFF;
-    padding-top: 1rem;
 }
 
 .reloj {
@@ -204,13 +209,14 @@ h1 {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
+    margin-top: -1rem;
 }
 
 .countdown {
     display: flex;
     justify-content: center;
     gap: 1rem;
-    margin-top: 1rem;
 }
 
 .countdown-item {
@@ -249,7 +255,89 @@ h1 {
 }
 
 
+.img-iglesia {
+    width: 170px;
+    height: auto;
+}
 
+
+.text-ceremonia {
+    font-family: 'Abel', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    letter-spacing: 0.08em;
+    text-align: center;
+    vertical-align: middle;
+    color: #FFFFFF;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.text-iglesia {
+    font-family: 'Aboreto', serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 8%;
+    text-align: center;
+    vertical-align: middle;
+    color: #FFFFFF;
+    margin: 0.5rem 0;
+}
+
+.direccion {
+    font-family: 'Abel', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 100%;
+    letter-spacing: 8%;
+    text-align: center;
+    vertical-align: middle;
+    color: #FFFFFF;
+}
+
+
+.img-faro {
+    width: 70px;
+    margin-top: 2.3rem;
+}
+
+
+.text-celebracion {
+    font-family: 'Abel', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 100%;
+    letter-spacing: 8%;
+    text-align: center;
+    vertical-align: middle;
+    color: #FFFFFF;
+    margin-top: 1rem;
+}
+
+.text-lugar {
+    font-family: 'Aboreto', serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 8%;
+    text-align: center;
+    vertical-align: middle;
+    color: #FFFFFF;
+    margin: 0.5rem 0;
+}
+
+.text-horario {
+    font-family: 'Abel', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 100%;
+    letter-spacing: 8%;
+    text-align: center;
+    vertical-align: middle;
+    color: #FFFFFF;
+
+}
 
 .como-llegar {
     background-color: #817A4E;
@@ -312,11 +400,11 @@ h1 {
     text-align: center;
     color: #FFFFFF;
     margin-bottom: 12px;
+    margin-top: -10px;
 }
 
-.moño {
-    margin-bottom: 10px;
-}
+
+
 
 .conocenos {
     font-weight: 400;
@@ -325,9 +413,7 @@ h1 {
     letter-spacing: 0.08em;
     text-align: center;
     color: #FFFFFF;
-    padding: 0 1.5rem;
     font-family: 'Abel', sans-serif;
-    margin-top: 10px;
 }
 
 .info-adicional {
@@ -373,7 +459,7 @@ h1 {
     letter-spacing: 0.1em;
     text-align: center;
     color: #512731;
-    margin-top: -10px;
+    margin-top: -25px;
 }
 
 .carta {
@@ -545,12 +631,12 @@ h1 {
 }
 
 .introduccio-colores {
-    font-weight: 400;
+    font-weight: 700;
     font-size: 13px;
     line-height: 172%;
     letter-spacing: 0.08em;
     text-align: center;
-    font-family: 'Charmonman', cursive;
+    font-family: 'Afacad Flux', sans-serif;
     padding: 18px 0;
     margin-bottom: 18px;
 }
@@ -585,17 +671,102 @@ h1 {
     padding: 0 1rem;
 }
 
-.img-paletas-colores {
-    max-width: 100%;
-    height: auto;
-}
 
-.verde {
+.verde,
+.rosa,
+.marron {
     font-size: 16px;
     letter-spacing: 0.08em;
     text-align: center;
     font-family: 'Aboreto', serif;
+    margin-bottom: 10px;
+    font-weight: 400;
 }
+
+
+.fila1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.color-1 {
+    background-color: #7C7759;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+
+.barra {
+    background-color: #000000;
+    width: 2px;
+    height: 50px;
+}
+
+.color-2 {
+    background-color: #AFB084;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+
+
+.fila2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.color-3 {
+    background-color: #B6849D;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+
+.color-4 {
+    background-color: #893557;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+
+
+.fila3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.color-5 {
+    background-color: #5A280F;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+
+.color-6 {
+    background-color: #670019;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+
 
 .text-celebrar {
     font-family: 'Charmonman', cursive;
@@ -627,7 +798,7 @@ h1 {
 
 
 /* ─── Small phones (≥ 375px) ─── */
-@media (min-width: 375px) {
+@media (min-width: 360px) {
 
 
 
@@ -641,6 +812,17 @@ h1 {
     .banco1,
     .banco2 {
         padding-left: 5.5rem;
+    }
+
+    .p-regalo {
+        font-size: 11px;
+        padding: 0 5px;
+    }
+
+    .p-regalo .font-charmonman,
+    .p-regalo .font-abel {
+        font-size: 11px;
+        letter-spacing: 0.05em;
     }
 
     .frase {
