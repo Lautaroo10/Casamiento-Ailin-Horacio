@@ -16,6 +16,35 @@ body {
 }
 
 
+.p-pantalla {
+    font-family: 'Aboreto', cursive;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 100%;
+    letter-spacing: 8%;
+    text-align: center;
+    vertical-align: middle;
+    color: #FFFFFF;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+
+.contenedor-pantalla {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.linea-inferior {
+    width: 135px;
+    height: 1px;
+    background-color: #FFFFFF;
+}
+
+
 .splash {
     display: flex;
     justify-content: center;
@@ -454,7 +483,7 @@ h1 {
 .asistencia {
     padding: 0 1.5rem;
     font-weight: 400;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 169%;
     letter-spacing: 0.1em;
     text-align: center;
@@ -467,6 +496,30 @@ h1 {
     padding: 0;
     max-width: 30%;
     height: auto;
+}
+
+.text-porfavor {
+    font-family: 'Abel', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 100%;
+    letter-spacing: 8%;
+    text-align: center;
+    vertical-align: middle;
+    color: #883B4D;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+.text-confirmar-asistencia {
+    font-family: 'Aboreto', serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 8%;
+    text-align: center;
+    color: #883B4D;
+    vertical-align: middle;
 }
 
 .btn-confirmacion {
@@ -485,13 +538,13 @@ h1 {
 
 .font-charmonman {
     font-family: 'Charmonman', cursive;
-    font-size: 14px;
+    font-size: 16px;
     letter-spacing: 1px;
 }
 
 .font-abel {
     font-family: 'Abel', sans-serif;
-    font-size: 12px;
+    font-size: 14px;
     letter-spacing: 2px;
 }
 
