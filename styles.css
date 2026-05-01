@@ -508,6 +508,7 @@ h1 {
 .img-regalo {
     margin-top: 26px;
     margin-bottom: 26px;
+    width: 170px;
 }
 
 .p-regalo {
@@ -518,7 +519,7 @@ h1 {
     margin-bottom: 24px;
     width: 100%;
     padding: 0 10px;
-    /* Mas cerca de los bordes */
+
 }
 
 .banco1,
