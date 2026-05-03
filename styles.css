@@ -576,7 +576,8 @@ h1 {
 }
 
 .banco1,
-.banco2 {
+.banco2,
+.banco3 {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -586,13 +587,15 @@ h1 {
     padding-left: 4.5rem;
 }
 
-.banco2 {
+.banco3 {
     margin-bottom: 45px;
+    margin-top: 10px;
 }
 
 .col-blanca1,
-.col-blanca2 {
-    width: 3px;
+.col-blanca2,
+.col-blanca3 {
+    width: 5px;
     min-width: 3px;
     height: 45px;
     background-color: white;
@@ -600,7 +603,8 @@ h1 {
 }
 
 .alias1,
-.alias2 {
+.alias2,
+.alias3 {
     font-family: 'Abel', sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -858,13 +862,15 @@ h1 {
 
 
     .alias1,
-    .alias2 {
+    .alias2,
+    .alias3 {
         font-size: 11px;
         letter-spacing: 2px;
     }
 
     .banco1,
-    .banco2 {
+    .banco2,
+    .banco3 {
         padding-left: 5.5rem;
     }
 
@@ -907,7 +913,8 @@ h1 {
     }
 
     .banco1,
-    .banco2 {
+    .banco2,
+    .banco3 {
         padding-left: 7rem;
     }
 
@@ -961,7 +968,8 @@ h1 {
     }
 
     .banco1,
-    .banco2 {
+    .banco2,
+    .banco3 {
         padding-left: 9rem;
     }
 
@@ -1008,12 +1016,14 @@ h1 {
     }
 
     .banco1,
-    .banco2 {
+    .banco2,
+    .banco3 {
         padding-left: 18rem;
     }
 
     .alias1,
-    .alias2 {
+    .alias2,
+    .alias3 {
         font-size: 12px;
         word-break: normal;
     }
@@ -1057,7 +1067,8 @@ h1 {
 @media (min-width: 1024px) and (max-width: 1025px) {
 
     .banco1,
-    .banco2 {
+    .banco2,
+    .banco3 {
         padding-left: 25rem;
     }
 }
@@ -1066,7 +1077,8 @@ h1 {
 @media (min-width: 1026px) {
 
     .banco1,
-    .banco2 {
+    .banco2,
+    .banco3 {
         padding-left: 40rem;
     }
 
